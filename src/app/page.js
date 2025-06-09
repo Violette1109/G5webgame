@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* 貪吃蛇遊戲圈圈 */}
       <div className="group absolute top-[76%] left-[46%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://snake-game-alpha-one.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
