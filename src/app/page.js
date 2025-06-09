@@ -10,7 +10,7 @@ export default function Home() {
       <Image src={MainImg} className="w-[1920px]" alt="title" />
 
       {/* 摩天輪遊戲圈圈 */}
-      <div className="group absolute top-[25%] left-[27%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[25%] left-[27%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/* 杯子蛋糕遊戲圈圈 */}
-      <div className="group absolute top-[30%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[30%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -32,7 +32,7 @@ export default function Home() {
       </div>
 
       {/* 拉霸機遊戲圈圈 */}
-      <div className="group absolute top-[26%] left-[70%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[26%] left-[60%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       {/* 夾娃娃機遊戲圈圈 */}
-      <div className="group absolute top-[50%] left-[63%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[50%] left-[63%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -53,8 +53,8 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* 公園遊戲圈圈 */}
-      <div className="group absolute top-[55%] left-[48%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      {/* sugar rush遊戲圈圈 */}
+      <div className="group absolute top-[55%] left-[48%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* 旋轉木馬遊戲圈圈 */}
-      <div className="group absolute top-[55%] left-[34%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[55%] left-[34%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       {/* 迷宮遊戲圈圈 */}
-      <div className="group absolute top-[52%] left-[20%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[52%] left-[20%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -86,8 +86,8 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* 第三個遊戲圈圈 */}
-      <div className="group absolute top-[76%] left-[68%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      {/* 翻牌遊戲圈圈 */}
+      <div className="group absolute top-[76%] left-[68%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -97,8 +97,8 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* 第三個遊戲圈圈 */}
-      <div className="group absolute top-[76%] left-[46%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      {/* 貪吃蛇遊戲圈圈 */}
+      <div className="group absolute top-[76%] left-[46%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -108,8 +108,8 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* 第三個遊戲圈圈 */}
-      <div className="group absolute top-[76%] left-[28%] w-[12%] h-[20%] rounded-full border-4 border-white bg-white/10 hover:bg-white/20 transition cursor-pointer flex items-center justify-center">
+      {/* 打地鼠遊戲圈圈 */}
+      <div className="group absolute top-[76%] left-[28%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
