@@ -7,7 +7,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col w-full h-full bg-[#feebd7] items-center justify-center rounded-2xl relative overflow-hidden">
-      <Image src={MainImg} className="w-[1920px]" alt="title" />
+      <div className="relative w-full max-w-[1920px]">
+        <Image src={MainImg} className="w-full h-auto" alt="title" />
 
       {/* 摩天輪遊戲圈圈 */}
       <div className="group absolute top-[25%] left-[27%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
@@ -21,7 +22,7 @@ export default function Home() {
       </div>
 
       {/* 杯子蛋糕遊戲圈圈 */}
-      <div className="group absolute top-[30%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
+      <div className="group absolute top-[30%] left-[45%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
         <Link href="">
           <Image
             src={StartImg}
@@ -119,6 +120,7 @@ export default function Home() {
         </Link>
       </div>
 
+      </div>
     </div>
   );
 }
