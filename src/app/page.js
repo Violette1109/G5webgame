@@ -111,7 +111,7 @@ export default function Home() {
 
       {/* 打地鼠遊戲圈圈 */}
       <div className="group absolute top-[76%] left-[28%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://whackamole-zeta.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
