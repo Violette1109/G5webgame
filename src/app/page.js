@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* 拉霸機遊戲圈圈 */}
       <div className="group absolute top-[26%] left-[60%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://slotmachine-psi.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* sugar rush遊戲圈圈 */}
       <div className="group absolute top-[55%] left-[48%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://sugar-rush-1deos-projects.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
@@ -67,7 +67,7 @@ export default function Home() {
 
       {/* 旋轉木馬遊戲圈圈 */}
       <div className="group absolute top-[55%] left-[34%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://carouselgame.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* 迷宮遊戲圈圈 */}
       <div className="group absolute top-[52%] left-[20%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://my-dessert-maze.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* 貪吃蛇遊戲圈圈 */}
       <div className="group absolute top-[76%] left-[46%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://snake-game-alpha-one.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
@@ -111,7 +111,7 @@ export default function Home() {
 
       {/* 打地鼠遊戲圈圈 */}
       <div className="group absolute top-[76%] left-[28%] w-[12%] h-[20%] rounded-full bg-white/0 hover:bg-white/10 transition cursor-pointer flex items-center justify-center">
-        <Link href="">
+        <Link href="https://whackamole-zeta.vercel.app/">
           <Image
             src={StartImg}
             alt="start"
