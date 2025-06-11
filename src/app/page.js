@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
+  
   return (
     <div className="flex flex-col w-full h-full bg-[#feebd7] items-center justify-center rounded-2xl relative overflow-hidden">
       
