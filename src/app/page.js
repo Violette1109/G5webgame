@@ -7,6 +7,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col w-full h-full bg-[#feebd7] items-center justify-center rounded-2xl relative overflow-hidden">
+      
+      <audio src="/bgmusic.mp3" autoPlay loop />
+
       <div className="relative w-full max-w-[1920px]">
         <Image src={MainImg} className="w-full h-auto" alt="title" />
 
@@ -70,7 +73,7 @@ export default function Home() {
         <Link href="https://carouselgame.vercel.app/">
           <Image
             src={StartImg}
-            alt="start"
+            alt="start" 
             className="w-[100%] opacity-0 group-hover:opacity-100 transition"
           />
         </Link>
